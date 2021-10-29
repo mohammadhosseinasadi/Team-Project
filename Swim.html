@@ -25,6 +25,18 @@
         </nav>  
     </header>
     <hr>
+    <center>
+        <nav>
+            <a href="#1">History</a>
+            <a href="#2">Competitive swimming</a>
+            <a href="#3">Swimwear</a>
+            <a href="#4">Common injuries</a>
+            <a href="#5">Records</a>
+            <a href="#6">Table of Record holders</a>
+            <a href="#7">search</a>
+            <a href="#8">footer</a>    
+        </nav>
+    </center>
     <br> <br>
     <main>
         <center>
@@ -33,7 +45,7 @@
             </figure>
         </center>
         <section>
-            <h2>History</h2>
+            <h2 id="1">History</h2>
             <p>
                 Evidence of recreational swimming in prehistoric times has been found, with the earliest evidence dating to Stone Age paintings from around 10,000 years ago. Written references date from 2000 BC, with some of the earliest references to swimming including the Iliad, the Odyssey, the Bible, Beowulf, the Quran and others. In 1538, Nikolaus Wynmann, a Swiss–German professor of languages, wrote the earliest known complete book about swimming, Colymbetes, sive de arte natandi dialogus et festivus et iucundus lectu (The Swimmer, or A Dialogue on the Art of Swimming and Joyful and Pleasant to Read).<br><br>
 
@@ -41,7 +53,7 @@
             </p>
         </section>
         <section>
-            <h2>Competitive swimming</h2>
+            <h2 id="2">Competitive swimming</h2>
             <p>
                 Competitive swimming became popular in the 19th century. The goal of high level competitive swimming is to break personal or world records while beating competitors in any given event. Swimming in competition should create the least resistance in order to obtain maximum speed. However, some professional swimmers who do not hold a national or world ranking are considered the best in regard to their technical skills. Typically, an athlete goes through a cycle of training in which the body is overloaded with work in the beginning and middle segments of the cycle, and then the workload is decreased in the final stage as the swimmer approaches competition. <br><br>
 
@@ -63,7 +75,7 @@
             </center>
         </section>
         <section>
-            <h2>Swimwear</h2>
+            <h2 id="3">Swimwear</h2>
             <p>
                 <strong>Swimsuit</strong> <br> Competitive swimwear seeks to improve upon bare skin for a speed advantage and coverage. In 2009, FINA rules and regulations were altered and suits made with polyurethane were banned because they made athletes more buoyant. These rules also banned suits which go above the navel or below the knee for men and suits which extend past the shoulders or cover the neck for women.<br><br>
                 <strong>Swim cap</strong> <br>
@@ -92,7 +104,7 @@
             </center>            
         </section>
         <section>
-            <h2>Common injuries</h2>
+            <h2 id="4">Common injuries</h2>
             <p>
                 The rotator cuff in the shoulder is most susceptible to injury in swimmers. Injury to the rotator cuff results from repeated trauma and overuse.[48] The joints are more prone to injury when the arm is repetitively used in a position above the horizontal line of the body. This position occurs in each of the four swimming strokes in every cycle of the arms. Out of the four tendons in the rotator cuff, the supraspinatus is most prone to tearing. Rotator cuff impingement is due to pressure on the rotator cuff from part of the scapula as the arm is raised. <br> <br>
 
@@ -107,7 +119,7 @@
             </center>
         </section>
         <section>
-            <h1>Records</h1>
+            <h1 id="5">Records</h1>
             <p>
                 The foundation of FINA in 1908 signaled the commencement of recording the first official world records in swimming. At that time records could be established in any swimming pool of length not less than 25 yards, and records were also accepted for intermediate distance split times from long-distance events. Today World Records will only be accepted when times are reported by Automatic Officiating Equipment, or Semi-Automatic Officiating Equipment in the case of Automatic Officiating Equipment system <br><br>
 
@@ -134,7 +146,7 @@
             </p>
         </section>
         <section>
-            <h3>Record holders' rankings by nation</h3>
+            <h3 id="6">Record holders' rankings by nation</h3>
             <center>
                 <table>
                     <thead>
@@ -230,10 +242,59 @@
                 </table>
             </center>
         </section>
+        <br><br><hr><br>
+        <section id="7">
+            <center>
+                <form action="https://www.google.com/search" target="_blank">
+                    <label for="google">Any question about swimming? google it</label>
+                    <input id="google" type="text" name="q">
+                    <button>search</button>
+                </form> 
+                <br>
+                <form action="https://www.digikala.com/search/" target="_blank">
+                    <label for="digi kala">For buying a swim wear on Digi kala text here</label>
+                    <input id="digi kala"  type="text" name="q">
+                    <button>Go</button>
+                </form>
+                <br> 
+                <form action="https://www.yotube.com/search" target="_blank">
+                    <label for="yotube">For watching any swimming competition text here</label>
+                    <input id="yotube"  type="text" name="q">
+                    <button>Go</button>
+                </form>
+            </center>
+        </section>
+        <br><hr>
+        <section>
+            <form action="">
+                <p>Do you like swimming:</p>
+                <label for="interest1">Yes</label>
+                    <input id="interest1" type="radio" name="Interest" value="yes">
+                <label for="interest2">No</label>
+                    <input id="interest2" type="radio" name="Interest" value="No">
+                <br><br>
+                <label for="age">How old are you?</label><br>
+                    <input id="afe" type="text" name="age" placeholder="Please number your age">
+                <br><br>
+                <label for="choose">Which of these exercise you prefer?</label><br>
+                <select name="prefer" id="choose">
+                    <option value="">Please choose an option</option>
+                    <option value="swim">Swim</option>
+                    <option value="golf">Golf</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="tennis">Tennis</option>
+                </select>
+                <br><br>
+                <label for="comment">Write your coment:</label><br>
+                <textarea name="comment id="comment" cols="60" rows="5" required></textarea>
+                <br><br>
+                <button>Submit</button>
+            </form>
+        </section>
     </main>
     <br>
     <br> <hr>
-    <footer>
+    <footer id="8">
         <center>
         <p>This is simple test of coding 
             <button>
